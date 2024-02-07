@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import ModalWindow from "./components/ModalWindow";
+import Acordeon from "./components/Acordeon";
+import './style/main.css'
+
+const faqList = [
+  { 
+    id: 0,
+    question: "Section 1",
+    answer: "Lorem ipsum...1"
+  },
+  {
+    id: 1,
+    question: "Section 2",
+    answer: "Lorem ipsum... Lorem ipsum...2"
+  },
+  {
+    id: 2,
+    question: "Section 3",
+    answer: "Lorem ipsum... Lorem ipsum... Lorem ipsum...3"
+  }
+]
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <header>Модальне вікно та акордеон </header>
+    
+    <ModalWindow />
+
+    <hr/>
+    
+    <Acordeon faqList = {faqList} />
+
+    </>
+  )
 }
 
 export default App;

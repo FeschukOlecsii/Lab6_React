@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Lato:wght@300&family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: rgb(204, 210, 206);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+header{
+    background-color: rgb(236, 149, 18);
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.buttonModal:hover {
+    opacity: 0.8;
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttonModal{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(83, 159, 225);
+    cursor: pointer;
+}
+
+.modalText{
+    display: none;
+}
+
+.modalTextShow{
+    display: block;
+}
+
+.accordion{
+    background-color: #c1c1c1;
+    color: #252525;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: medium;
+} 
+
+ .panel{
+    display: none;
+}
+
+.panelActive{
+    border-top: 1px solid black;
+    padding: 18px;
+    background-color: rgb(220, 220, 220);
+    overflow: hidden;
+
+}
