@@ -1,3 +1,13 @@
+# Для того щоб запустити проект потрібно:
+-Скачати проект та відкрити його;
+-Встановити бібліотеку React:
+  *Відкрити термінал та вписати ###`npm i react`
+  *Далі прописати ###`npm i react-dom`
+-Створюємо build та піднімаємо проект:
+  ###`npm run build`
+  ###`npm run start`
+Попередньо має бути встановлений пакетний меннеджер NPM.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
